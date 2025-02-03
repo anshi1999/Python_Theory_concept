@@ -2,6 +2,13 @@
 # New concept is about making a tabular layout in python using tabular package installing it then storing data in list.
 # from tabulate import tabulate
 def variable_():
+    print('''✨ Summary
+    ✔️ Python variables store data dynamically.
+    ✔️ No need to define types explicitly.
+    ✔️ Use type() to check the variable type.
+    ✔️ Type conversion helps in changing data types.
+    ✔️ Multiple variables can be assigned in one line.''')
+
     defi = '''📌 Variables and Data Types in Python
     1️⃣ What is a Variable?
     A variable is a container that stores data in Python.
@@ -75,12 +82,6 @@ def data_type():
     # Assign the same value to multiple variables
     x = y = z = "Same Value"
     print(x, y, z)
-    print('''✨ Summary
-✔️ Python variables store data dynamically.
-✔️ No need to define types explicitly.
-✔️ Use type() to check the variable type.
-✔️ Type conversion helps in changing data types.
-✔️ Multiple variables can be assigned in one line.''')
 
 data_type()
 

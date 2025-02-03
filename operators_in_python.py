@@ -1,4 +1,15 @@
 def operators_():
+
+    print('''✨ Summary
+            ✔️ Python provides different types of operators:
+            🔹 Arithmetic (+, -, *, /, //, %, **)
+            🔹 Comparison (==, !=, >, <, >=, <=)
+            🔹 Logical (and, or, not)
+            🔹 Assignment (=, +=, -=, etc.)
+            🔹 Bitwise (&, |, ^, ~, <<, >>)
+            🔹 Identity (is, is not)
+            🔹 Membership (in, not in)''')
+
     print('''📌 Operators in Python
     Operators are special symbols that perform operations on variables and values. 
     Python supports different types of operators:''')
@@ -91,15 +102,5 @@ def operators_():
     ]
     print(tabulate(data, headers="firstrow", tablefmt="mixed_grid"))
 
-
-    print('''✨ Summary
-            ✔️ Python provides different types of operators:
-            🔹 Arithmetic (+, -, *, /, //, %, **)
-            🔹 Comparison (==, !=, >, <, >=, <=)
-            🔹 Logical (and, or, not)
-            🔹 Assignment (=, +=, -=, etc.)
-            🔹 Bitwise (&, |, ^, ~, <<, >>)
-            🔹 Identity (is, is not)
-            🔹 Membership (in, not in)''')
 
 operators_()

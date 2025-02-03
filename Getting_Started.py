@@ -53,7 +53,5 @@ def python_intro():
     print("✔️ PyCharm (Feature-rich, best for Python projects)")
     print("✔️ Jupyter Notebook (Great for Data Science)\n")
 
-
-# Call the function with different parameters
 python_intro()
 
